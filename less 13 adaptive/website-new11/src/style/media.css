@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+	header .container {
+		justify-content: space-around;
+	}
+}
+@media (max-width: 768px) {
+	header .container {
+		justify-content: space-between;
+	}
+	button {
+		margin-left: 10px;
+	}
+	.head-contact__phone {
+		font-size: 16px;
+	}
+}
+@media (max-width: 567px) {
+	.head-contact {
+		display: none;
+	}
+	button {
+		width: 137px;
+		height: 39px;
+		line-height: 39px;
+		
+	}
+	header .container {
+		padding: 0 10px;
+		min-height: 70px;
+	}
+	.logo img {
+		width: 90px;
+	}
+}

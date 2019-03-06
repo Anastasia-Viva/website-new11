@@ -1,0 +1,73 @@
+*{
+	box-sizing:border-box
+}
+.container{
+	max-width:1200px;
+	margin:0 auto;
+	padding:0 15px
+}
+
+body{
+	background-color:#eeeeee
+}
+
+
+header{
+	background-color:#fff
+}
+
+header .container{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+	min-height:90px
+}
+
+.logo{
+	display:block
+}
+
+.head-contact{
+	display:flex;
+	flex-direction:column
+}
+
+.head-address{
+	font-family:'Museo', sans-serif;
+	font-size:13px;
+	color:#333;
+	font-weight:300;
+	text-align:right;
+	margin-bottom:10px
+}
+
+.head-phone{
+	font-family:sans-serif;
+	font-size:20px;
+	color:#333;
+	font-weight:700;
+	text-decoration:none
+}
+
+button{
+	font-family:sans-serif;
+	font-size:13px;
+	color:#333;
+	font-weight:700;
+	border-radius:6px;
+	background-color:#ffd200;
+	height:49px;
+	width:170px;
+	text-align:center;
+	line-height:49px;
+	display:block;
+	margin-left:30px;
+	 border: 0px;
+}
+
+.head-block{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center
+}

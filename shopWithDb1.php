@@ -130,7 +130,7 @@ $result = $stmt->fetchAll(PDO::FETCH_ASSOC);*/
 
 
 
-if (isset($_GET['id']) && $_GET['id'] == 'edit')
+if (isset($_GET['id']) && $_GET['id'] == 'edit') {
 
 $id = $_GET['id'];
 
@@ -146,6 +146,7 @@ while($row = $query->fetch(PDO::FETCH_ASSOC))
     $content = $_GET['content'];
     $phone = $_GET['phone'];
     $author = $_GET['author'];
+}
 };
 
 var_dump($_GET);
